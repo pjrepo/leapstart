@@ -1,7 +1,10 @@
 "use client";
 
 import React from "react";
+<<<<<<< HEAD
 import Link from "next/link";
+=======
+>>>>>>> main
 
 interface CourseDetailsPageProps {
   params: {
@@ -11,6 +14,7 @@ interface CourseDetailsPageProps {
 
 const CourseDetailsPage = ({ params }: CourseDetailsPageProps) => {
   return (
+<<<<<<< HEAD
     <div className="bg-[#040404] min-h-screen font-syne">
       {/* Hero Section */}
       <section className="relative overflow-hidden flex items-center" style={{ minHeight: 'calc(100vh)' }}>
@@ -371,6 +375,12 @@ const CourseDetailsPage = ({ params }: CourseDetailsPageProps) => {
           </div>
         </div>
       </section>
+=======
+    <div className="bg-[#040404] min-h-screen font-syne flex items-center justify-center">
+      <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white text-center">
+        Course Details Page
+      </h1>
+>>>>>>> main
     </div>
   );
 };
