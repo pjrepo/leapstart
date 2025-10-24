@@ -291,11 +291,13 @@ const CoursesPage = () => {
                       </span>
                     </div>
                     
-                    <Button
-                      className="bg-gradient-to-br from-[#6630C6] to-[#330F95] rounded-full border-none text-white px-4 py-2 text-sm font-medium hover:from-[#6630C6]/90 hover:to-[#330F95]/90 transition-all"
-                    >
-                      Join Course
-                    </Button>
+                    <Link href={`/courses/${course.id}`}>
+                      <Button
+                        className="bg-gradient-to-br from-[#6630C6] to-[#330F95] rounded-full border-none text-white px-4 py-2 text-sm font-medium hover:from-[#6630C6]/90 hover:to-[#330F95]/90 transition-all"
+                      >
+                        Join Course
+                      </Button>
+                    </Link>
                   </div>
                 </div>
               </div>
