@@ -23,11 +23,9 @@ export default function Home() {
 
   return (
     <div className="bg-[#040404] min-h-screen font-syne">
-      {/* Header */}
-      <header className="fixed top-0 left-0 right-0 z-50 bg-transparent">
+      {/* <header className="fixed top-0 left-0 right-0 z-50 bg-transparent">
         <div className="container mx-auto px-0">
           <div className="flex items-center justify-between h-20">
-            {/* Logo */}
             <Link href="/" className="flex items-center group">
               <Image
                 src="/Logo.png"
@@ -38,7 +36,7 @@ export default function Home() {
               />
             </Link>
 
-            {/* Desktop Navigation */}
+ 
             <div className="hidden md:flex items-center gap-8">
               <nav className="flex items-center gap-8">
                 {navItems.map((item) => (
@@ -57,7 +55,6 @@ export default function Home() {
                 ))}
               </nav>
 
-              {/* Get Started Button */}
               <div className="flex items-center">
                 <Button
                   size="sm"
@@ -68,7 +65,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Mobile Menu Button */}
             <button
               className="md:hidden p-2 hover:bg-accent rounded-lg transition-colors"
               onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -77,7 +73,7 @@ export default function Home() {
             </button>
           </div>
         </div>
-      </header>
+      </header> */}
 
       {/* Hero Section */}
       <div className="pt-20 px-2 lg:px-4">
