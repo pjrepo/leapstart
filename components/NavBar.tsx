@@ -24,13 +24,16 @@ const NavBar = () => {
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/" className="flex items-center group">
-            <Image
+            {/* <Image
               src="/Logo.png"
               alt="Logo"
               width={120}
               height={40}
               className="group-hover:scale-105 transition-transform"
-            />
+            /> */}
+            <h3 className="bg-gradient-to-r from-[#4F1BAD] to-[#9867F0] bg-clip-text text-transparent font-semibold text-4xl">
+              Leapstart
+            </h3>
           </Link>
 
           {/* Desktop Navigation */}
