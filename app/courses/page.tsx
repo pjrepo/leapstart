@@ -112,12 +112,12 @@ const CoursesPage = () => {
   return (
     <div className="bg-[#040404] min-h-screen font-syne">
       {/* Hero Section */}
-      <section className="relative pt-20 pb-16 overflow-hidden">
+      <section className="relative overflow-hidden flex items-center" style={{ minHeight: 'calc(100vh)' }}>
         {/* Background with gradient */}
         <div className="absolute inset-0 bg-gradient-to-r from-[#6630C6]/30 from-0% via-[#6630C6]/10 via-20% to-transparent to-100%"></div>
         
-        <div className="container mx-auto px-6 relative z-10">
-          <div className="grid lg:grid-cols-5 gap-12 items-center min-h-[600px]">
+        <div className="container mx-auto px-6 relative z-10 w-full">
+          <div className="grid lg:grid-cols-5 gap-12 items-center w-full">
             {/* Left Content - 60% */}
             <div className="lg:col-span-3 space-y-8">
               {/* Courses Tag */}
