@@ -29,15 +29,19 @@ export default function CallToAction() {
                 </p>
 
                 {/* Email Subscription */}
-                <div className="flex flex-col sm:flex-row items-center justify-center gap-4 max-w-md mx-auto">
-                    <Input
-                        type="email"
-                        placeholder="Enter your email"
-                        className="flex-1 bg-[#1A1A1A] border border-[#333333] text-white placeholder:text-[#AAAAAA] rounded-xl px-6 py-3"
-                    />
-                    <Button className="bg-[#A066FF] text-white hover:bg-[#8a4dff] rounded-xl px-6 py-3">
-                        Subscribe
-                    </Button>
+                <div className="flex items-center justify-center max-w-md mx-auto">
+                    <div className="flex w-full bg-[#1A1A1A] border border-[#333333] rounded-full overflow-hidden">
+                        <Input
+                            type="email"
+                            placeholder="Enter your email"
+                            className="flex-1 bg-transparent border-0 text-white placeholder:text-[#CCCCCC] px-6 py-4 focus:outline-none focus:ring-0"
+                        />
+                        <Button 
+                            className="bg-gradient-to-br from-[#6630C6] to-[#330F95] text-white border-0 px-8 py-4 hover:from-[#5a2bb8] hover:to-[#2a0d7a] transition-all duration-200 shadow-lg rounded-full"
+                        >
+                            Subscribe
+                        </Button>
+                    </div>
                 </div>
             </div>
         </section>
