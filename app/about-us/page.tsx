@@ -44,10 +44,10 @@ const AboutUs = () => {
               </div>
 
               {/* Main Heading */}
-              <h1 className="text-5xl lg:text-6xl font-bold text-white leading-tight">
-                Find the right course to level up{" "}
-                <span className="text-[#6630C6]">your skills.</span>
-              </h1>
+              <h2 className="text-5xl lg:text-5xl font-bold text-white leading-tight">
+              Relearn empowers your growth-{" "}
+                <span className="text-[#6630C6]">anytime, anywhere.</span>
+              </h2>
 
               {/* Breadcrumbs */}
               <div className="flex items-center gap-3">
@@ -61,7 +61,7 @@ const AboutUs = () => {
                   href="/courses"
                   className="px-4 py-2 bg-[#6630C6] text-white rounded-full text-sm font-medium"
                 >
-                  Courses
+                  About Us
                 </Link>
               </div>
             </div>
