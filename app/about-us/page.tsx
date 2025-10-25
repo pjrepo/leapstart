@@ -2,6 +2,8 @@ import React from "react";
 import Link from "next/link";
 import HowItWorksSection from "@/components/how-it-works";
 import Instructors from "@/components/instructors-box";
+import LearnersSayingSection from "@/components/testimonials";
+import GetStarted from "@/components/get-started";
 
 const AboutUs = () => {
   const statistics = [
@@ -45,7 +47,7 @@ const AboutUs = () => {
 
               {/* Main Heading */}
               <h2 className="text-5xl lg:text-5xl font-bold text-white leading-tight">
-              Relearn empowers your growth-{" "}
+                Relearn empowers your growth-{" "}
                 <span className="text-[#6630C6]">anytime, anywhere.</span>
               </h2>
 
@@ -141,6 +143,16 @@ const AboutUs = () => {
       {/* Instructors boxes */}
       <div>
         <Instructors />
+      </div>
+
+      {/* Testimonials */}
+      <div>
+        <LearnersSayingSection />
+      </div>
+
+      {/* getting started */}
+      <div>
+        <GetStarted />
       </div>
     </div>
   );
