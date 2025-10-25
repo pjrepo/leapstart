@@ -10,6 +10,7 @@ import WhyChooseUsSection from "@/components/why-choose-us";
 import HowItWorksSection from "@/components/how-it-works";
 import TestimonialsSection from "@/components/testimonials";
 import FAQSection from "@/components/faq";
+import Blogs from "@/components/blogs";
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
@@ -183,9 +184,13 @@ export default function Home() {
       <TestimonialsSection />
 
       {/* FAQ Section */}
-
       <div>
         <FAQSection />
+      </div>
+
+      {/* Blogs Section */}
+      <div>
+        <Blogs />
       </div>
     </div>
   );
