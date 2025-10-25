@@ -11,6 +11,7 @@ import HowItWorksSection from "@/components/how-it-works";
 import TestimonialsSection from "@/components/testimonials";
 import FAQSection from "@/components/faq";
 import Blogs from "@/components/blogs";
+import GetStarted from "@/components/get-started";
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
@@ -191,6 +192,11 @@ export default function Home() {
       {/* Blogs Section */}
       <div>
         <Blogs />
+      </div>
+
+      {/* Get Started Section */}
+      <div>
+        <GetStarted />
       </div>
     </div>
   );
