@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import HowItWorksSection from "@/components/how-it-works";
 
 const AboutUs = () => {
   const statistics = [
@@ -130,6 +131,11 @@ const AboutUs = () => {
           </div>
         </div>
       </section>
+
+      {/* How it works section */}
+      <div>
+        <HowItWorksSection />
+      </div>
     </div>
   );
 };
