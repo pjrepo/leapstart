@@ -3,6 +3,7 @@
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Calendar, User2 } from "lucide-react";
+import CallToAction from "@/components/call-to-action";
 
 export default function Blogs() {
   const blogPosts = [
@@ -42,8 +43,13 @@ export default function Blogs() {
   ];
 
   return (
-    <section className="relative bg-black text-white py-20">
-      <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12">
+    <>
+      {/* Call to Action Section */}
+      <CallToAction />
+      
+      {/* Blog Posts Section */}
+      <section className="relative bg-black text-white py-20">
+        <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-2 gap-12">
         {/* LEFT SIDE (Large Blog) */}
         <div className="flex flex-col gap-6">
           {/* Image Placeholder */}
@@ -129,5 +135,6 @@ export default function Blogs() {
         </div>
       </div>
     </section>
+    </>
   );
 }
