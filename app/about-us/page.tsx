@@ -1,6 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import HowItWorksSection from "@/components/how-it-works";
+import Instructors from "@/components/instructors-box";
 
 const AboutUs = () => {
   const statistics = [
@@ -135,6 +136,11 @@ const AboutUs = () => {
       {/* How it works section */}
       <div>
         <HowItWorksSection />
+      </div>
+
+      {/* Instructors boxes */}
+      <div>
+        <Instructors />
       </div>
     </div>
   );
