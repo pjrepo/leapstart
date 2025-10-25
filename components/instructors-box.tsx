@@ -22,9 +22,9 @@ export default function Instructors() {
   return (
     <section className="py-20 bg-black">
       <div className="container mx-auto px-6">
-        <div className="grid lg:grid-cols-5 gap-12">
+        <div className="flex justify-between items-start gap-12">
           {/* Left Side - Header */}
-          <div className="lg:col-span-2 space-y-6">
+          <div className="space-y-4">
             {/* OUR INSTRUCTOR Tag */}
             <div 
               className="inline-flex items-center gap-2 rounded-full px-3 py-1 bg-[#1A0A33] font-inter font-normal text-base border border-transparent"
@@ -46,8 +46,8 @@ export default function Instructors() {
           </div>
 
           {/* Right Side - Description */}
-          <div className="lg:col-span-3 flex items-center">
-            <p className="text-[#CCCCCC] leading-relaxed">
+          <div className="flex items-center">
+            <p className="text-[#CCCCCC] leading-relaxed max-w-xs">
               Learn from experienced professionals who are passionate about teaching and committed to helping you grow.
             </p>
           </div>
