@@ -9,6 +9,7 @@ import LogoCloud from "@/components/logo-cloud";
 import WhyChooseUsSection from "@/components/why-choose-us";
 import HowItWorksSection from "@/components/how-it-works";
 import TestimonialsSection from "@/components/testimonials";
+import FAQSection from "@/components/faq";
 
 export default function Home() {
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
@@ -36,7 +37,7 @@ export default function Home() {
               />
             </Link>
 
- 
+
             <div className="hidden md:flex items-center gap-8">
               <nav className="flex items-center gap-8">
                 {navItems.map((item) => (
@@ -180,6 +181,12 @@ export default function Home() {
 
       {/* Testimonials Section */}
       <TestimonialsSection />
+
+      {/* FAQ Section */}
+
+      <div>
+        <FAQSection />
+      </div>
     </div>
   );
 }
