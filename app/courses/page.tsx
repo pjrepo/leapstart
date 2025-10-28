@@ -270,11 +270,11 @@ const CoursesPage = () => {
             {/* Right Content - Search Bar - 40% */}
             <div className="lg:col-span-2">
               <div className="relative">
-                <div className="flex items-center bg-[#1A1A1A] border border-[#6630C6]/40 rounded-full px-6 py-4 backdrop-blur-sm">
+                <div className="flex items-center bg-[#1A1A1A] border border-[#6630C6]/40 rounded-full px-6 py-5 backdrop-blur-sm">
                   <input
                     type="text"
                     placeholder="Search course..."
-                    className="flex-1 bg-transparent text-white placeholder-gray-400 outline-none text-lg"
+                    className="flex-1 bg-transparent text-white placeholder-gray-700 outline-none text-lg"
                   />
                   <Button className="bg-gradient-to-br from-[#6630C6] to-[#330F95] rounded-full border-none text-white px-6 py-3 ml-4 hover:from-[#6630C6]/90 hover:to-[#330F95]/90 transition-all">
                     <span className="mr-2">Search Course</span>
@@ -298,8 +298,13 @@ const CoursesPage = () => {
                 className={`px-6 py-3 rounded-full font-bold text-sm uppercase transition-all duration-200 ${
                   activeCategory === category
                     ? "bg-gradient-to-br from-[#6630C6] to-[#330F95] text-white"
-                    : "bg-[#1A1A1A] border border-gray-600 text-white hover:border-gray-500 hover:bg-[#2A2A2A]"
+                    : "bg-[#1A1A1A] border border-gray-600 text-white hover:border-gray-500 hover:bg-[#2A2A2A] hover:shadow-[0_0_16px_4px_rgba(102,48,198,0.7)]"
                 }`}
+                style={{
+                  transitionProperty: "box-shadow, background, border, color",
+                  WebkitTransitionProperty:
+                    "box-shadow, background, border, color",
+                }}
               >
                 {category}
               </button>
