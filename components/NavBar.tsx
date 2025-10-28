@@ -55,14 +55,14 @@ const NavBar = () => {
             </nav>
 
             {/* Get Started Button */}
-            <div className="flex items-center">
+            {/* <div className="flex items-center">
               <Button
                 size="sm"
                 className="bg-gradient-to-br from-[#6630C6] to-[#330F95] rounded-[40px] border-none text-white py-4 px-2"
               >
                 Get Started
               </Button>
-            </div>
+            </div> */}
           </div>
 
           {/* Mobile Menu Button */}

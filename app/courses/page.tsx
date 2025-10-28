@@ -143,7 +143,7 @@ const CoursesPage = () => {
               {/* Block B: Navigation Toggle */}
               <div className="w-[200px] h-14 bg-gray/100 rounded-full relative flex items-center shadow-inner border border-gray-800">
                 {/* Animated/Pill Selector */}
-                <div className="absolute top-1 bottom-1 right-1 w-[calc(50%-0.25rem)] bg-gradient-to-r from-[#6630C6] to-[#6B21A8] rounded-full transition-all duration-300 pointer-events-none" />
+                <div className="absolute top-1 bottom-1 right-1 w-[calc(50%-0.25rem)] bg-gradient-to-r from-[#6630C6] to-[#6B21A8] rounded-full transition-all duration-300 ease 1s pointer-events-none" />
                 {/* Home (inactive, animated hover) */}
                 <Link
                   href="/"
@@ -163,6 +163,7 @@ const CoursesPage = () => {
                     transition-colors 
                     select-none
                     duration-300
+                    ease 1s
                     hover:bg-gradient-to-r hover:from-[#7B34E6] hover:to-[#A864F0]
                     hover:shadow-[0_0_10px_2px_rgba(123,52,230,0.22),0_0_20px_4px_rgba(168,100,240,0.12)]
                     hover:text-white
@@ -170,7 +171,7 @@ const CoursesPage = () => {
                   style={{ textAlign: "center" }}
                 >
                   <span
-                    className="transition-colors transition-shadow duration-300 group-hover:text-white group-hover:drop-shadow-[0_0_5px_rgba(123,52,230,0.38)]"
+                    className="transition-colors transition-shadow duration-300 ease 1s group-hover:text-white group-hover:drop-shadow-[0_0_5px_rgba(123,52,230,0.38)]"
                     style={{ filter: "none" }}
                   >
                     Home
@@ -195,6 +196,7 @@ const CoursesPage = () => {
                     transition-colors
                     select-none
                     duration-300
+                    ease 1s
                     // Background only revealed by underlying selector, but we add hover effect here
                     hover:bg-gradient-to-r 
                     hover:from-[#6730ff]
@@ -206,7 +208,7 @@ const CoursesPage = () => {
                   aria-current="page"
                 >
                   <span
-                    className="transition-colors transition-shadow duration-300 group-hover:drop-shadow-[0_0_8px_rgba(123,52,230,0.46)]"
+                    className="transition-colors transition-shadow duration-300 ease 1s group-hover:drop-shadow-[0_0_8px_rgba(123,52,230,0.46)]"
                     style={{ filter: "none" }}
                   >
                     Courses
