@@ -19,7 +19,7 @@ const NavBar = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-transparent">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-[#040404]">
       <div className="container mx-auto px-0">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
