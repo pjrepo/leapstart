@@ -67,12 +67,12 @@ export default function GetStarted() {
           {/* View Packages Button */}
           <Button
             variant="outline"
-            className="border-white bg-transparent hover:bg-white rounded-[40px] px-8 py-4 text-base font-medium flex items-center gap-2 group"
+            className="!border-white !text-white !bg-transparent hover:!bg-transparent rounded-[40px] px-8 py-4 text-base font-medium flex items-center gap-2"
           >
-            <span className="text-white group-hover:text-black transition-colors">
+            <span className="text-white">
               View Packages
             </span>
-            <ArrowUpRight className="w-5 h-5 text-white group-hover:text-black group-hover:translate-x-1 group-hover:-translate-y-1 transition-all" />
+            <ArrowUpRight className="w-5 h-5 text-white" />
           </Button>
         </div>
       </div>

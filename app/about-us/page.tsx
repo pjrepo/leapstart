@@ -136,9 +136,9 @@ const AboutUs = () => {
       </section>
 
       {/* How it works section */}
-      <div>
+      {/* <div>
         <HowItWorksSection />
-      </div>
+      </div> */}
 
       {/* Instructors boxes */}
       <div>

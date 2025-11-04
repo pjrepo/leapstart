@@ -6,7 +6,7 @@ import { Facebook, Twitter, MessageCircle, Send } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white">
+    <footer className="bg-black text-white overflow-hidden">
       {/* Top Section - 5 Columns */}
       <div className="container mx-auto px-6 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">

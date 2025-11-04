@@ -29,7 +29,7 @@ export default function CallToAction() {
                 </p>
 
                 {/* Email Subscription */}
-                <div className="flex items-center justify-center max-w-md mx-auto">
+                {/* <div className="flex items-center justify-center max-w-md mx-auto">
                     <div className="flex w-full bg-[#1A1A1A] border border-[#333333] rounded-full overflow-hidden">
                         <Input
                             type="email"
@@ -42,7 +42,7 @@ export default function CallToAction() {
                             Subscribe
                         </Button>
                     </div>
-                </div>
+                </div> */}
             </div>
         </section>
     )

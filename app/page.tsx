@@ -63,7 +63,7 @@ export default function Home() {
                 </Button>
                 <Button
                   variant="outline"
-                  className="border-[#FBFBFB] text-[#040404] bg-[#FBFBFB] rounded-[40px] px-8 py-4 font-medium hover:bg-[#040404] hover:text-[#FBFBFB]"
+                  className="!border-[#FBFBFB] !text-[#040404] !bg-[#FBFBFB] rounded-[40px] px-8 py-4 font-medium hover:!bg-[#040404] hover:!text-[#FBFBFB]"
                 >
                   How it Works
                 </Button>
@@ -106,16 +106,16 @@ export default function Home() {
       </div>
 
       {/* Logos Carousel Section */}
-      <div className="text-center my-10">
+      {/* <div className="text-center my-10">
         <p className="text-[#aaaaaa]">We are trusted by</p>
         <LogoCloud />
-      </div>
+      </div> */}
 
       {/* Why Choose Us Section */}
       <WhyChooseUsSection />
 
       {/* How It Works Section */}
-      <HowItWorksSection />
+      {/* <HowItWorksSection /> */}
 
       {/* Testimonials Section */}
       <TestimonialsSection />
