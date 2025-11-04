@@ -116,6 +116,7 @@ export default function Home() {
 
       {/* How It Works Section */}
       {/* <HowItWorksSection /> */}
+      {/* unwanted section  */}
 
       {/* Testimonials Section */}
       <TestimonialsSection />
