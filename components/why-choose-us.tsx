@@ -18,7 +18,7 @@ export default function WhyChooseUsSection() {
             <div className="inline-flex items-center gap-2 rounded-[40px] bg-gradient-to-r from-[#4F1BAD] to-[#9867F0] p-[1px]">
               <div className="flex items-center gap-2 px-2 py-2 rounded-[40px] bg-[#040404]">
                 <Image
-                  src="/Ellipse 2.png"
+                  src="/Ellipse-2.png"
                   alt="Ellipse"
                   width={10}
                   height={10}
