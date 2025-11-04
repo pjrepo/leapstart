@@ -117,7 +117,7 @@ const CoursesPage = () => {
         style={{ minHeight: "calc(100vh)" }}
       >
         {/* Background with gradient */}
-        <div className="absolute"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#6630C6]/30 from-0% via-[#6630C6]/10 via-20% to-transparent to-100%"></div>
 
         <div className="container mx-auto px-6 relative z-10 w-full">
           <div className="grid lg:grid-cols-5 gap-12 items-center w-full">
@@ -295,11 +295,10 @@ const CoursesPage = () => {
               <button
                 key={category}
                 onClick={() => setActiveCategory(category)}
-                className={`px-6 py-3 rounded-full font-bold text-sm uppercase transition-all duration-200 ${
-                  activeCategory === category
+                className={`px-6 py-3 rounded-full font-bold text-sm uppercase transition-all duration-200 ${activeCategory === category
                     ? "bg-gradient-to-br from-[#6630C6] to-[#330F95] text-white"
                     : "bg-[#1A1A1A] border border-gray-600 text-white hover:border-gray-500 hover:bg-[#2A2A2A] hover:shadow-[0_0_16px_4px_rgba(102,48,198,0.7)]"
-                }`}
+                  }`}
                 style={{
                   transitionProperty: "box-shadow, background, border, color",
                   WebkitTransitionProperty:
@@ -323,11 +322,10 @@ const CoursesPage = () => {
             {courses.map((course) => (
               <div
                 key={course.id}
-                className={`relative bg-[#1A1A1A] border rounded-2xl overflow-hidden transition-all duration-300 hover:scale-105 ${
-                  course.isActive
+                className={`relative bg-[#1A1A1A] border rounded-2xl overflow-hidden transition-all duration-300 hover:scale-105 ${course.isActive
                     ? "border-[#6630C6]/60 shadow-lg shadow-[#6630C6]/20"
                     : "border-gray-600 hover:border-gray-500"
-                }`}
+                  }`}
               >
                 {/* Image Placeholder */}
                 <div className="h-48 bg-gray-300 rounded-t-2xl"></div>
